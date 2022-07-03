@@ -273,3 +273,5 @@ endif
 ifeq ($(CONFIG_LIBMUSL_COMPLEX),y)
 include $(LIBMUSL_BASE)/Makefile.uk.musl.complex
 endif
+ifneq ($(filter y,$(CONFIG_LIBMUSL_TEST) $(CONFIG_LIBUKTEST_ALL)),)
+endif

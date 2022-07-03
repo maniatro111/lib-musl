@@ -205,4 +205,8 @@ config LIBMUSL_UNISTD
   bool "libunistd"
   default y
 
+config LIBMUSL_TEST
+  bool "Enable tests"
+  default n
+
 endif
