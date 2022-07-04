@@ -21,7 +21,6 @@ LIBMUSL_INTERNAL_SRCS-y += $(LIBMUSL)/src/internal/procfdname.c
 LIBMUSL_INTERNAL_SRCS-y += $(LIBMUSL)/src/internal/shgetc.c
 LIBMUSL_INTERNAL_SRCS-y += $(LIBMUSL)/src/internal/syscall.c|internal
 LIBMUSL_INTERNAL_SRCS-y += $(LIBMUSL)/src/internal/syscall_ret.c
-LIBMUSL_INTERNAL_SRCS-y += $(LIBMUSL)/src/internal/vdso.c
 LIBMUSL_INTERNAL_SRCS-y += $(LIBMUSL)/src/internal/version.c
 
 #ifeq (arm,$(CONFIG_UK_ARCH))
